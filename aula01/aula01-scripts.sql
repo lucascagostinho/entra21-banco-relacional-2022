@@ -22,3 +22,12 @@ INSERT INTO pessoa(NOME, IDADE) VALUES("Lucas", 25); -- para inserir é necessá
 
 -- delete
 DELETE FROM pessoa;
+
+CREATE TABLE esportes(
+id INTEGER UNIQUE PRIMARY KEY AUTOINCREMENT,
+nome TEXT NOT NULL
+);
+
+INSERT INTO esportes(nome) VALUES("Basquete");
+
+SELECT * FROM esportes;
